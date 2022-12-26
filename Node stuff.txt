@@ -1,0 +1,31 @@
+struct Node{
+Node *left, *right;
+int key;
+}
+
+int sum_values(Node *n){
+    if(n==nullptr){
+        return 0;
+}
+    return n->key + sum_values(n->left) + sum_values(n->right);
+}
+
+struct Node{
+   Node *parent, *left, *right; 
+
+}
+
+Node* lowerst_common_ancestor(Node *p, Node *q){
+    if(p == nullptr || q == nullptr){
+        return nullptr;
+    }
+    if(p ==q){
+        return p;
+    }
+    if(p->level > q-> level){
+        return lowest_common_ancestor(q, p->parent);
+    }
+    if(q->level > p->level){
+        return lowest_common_ancestor(p, q->parent); 
+    }
+}

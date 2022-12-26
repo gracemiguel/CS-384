@@ -1,0 +1,8 @@
+
+
+ratings 4 6 4 5 6 2		You cannot just go forward to change the 
+candies 1 2 1 2 3 1		amount of candies. Must look forward 				AND back.
+
+ratings 2 4 2 6 1 7 8 9 2 1 
+candies 1 2 1 2 1 2 3 4 2 1
+

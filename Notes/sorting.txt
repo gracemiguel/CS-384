@@ -1,0 +1,64 @@
+		Best case	Worst Case	Avg Case	Overall
+Bubble sort 	Theta(n)	Theta(n^2)	Theta(n^2)	O(n^2)		
+Selection sort  Theta(n^2)	Theta(n^2)	Theta(n^)	Theta(n^2)
+Insertion sort	Theta(n)	Theta(n^2)	Theta(n^2)	O(n^2)
+Bubble sort in canvas 
+len=5
+5 4 1 3 2 
+i
+4 5 1 3 2	n-1
+
+len=4
+4 1 3 2 5
+  i
+
+1 4 3 2 5
+    i 
+1 3 4 2 5
+      i
+1 3 2 4 5
+        STOP
+
+len=3
+n=4
+
+n is the highest index in which a swap occurred in the previous iteation. 
+Therefore, we only need to go up to n in the next iteration. If the array is already sorted, n is 0, and the algorithm termiate after 1 pass.
+
+Selection sort 
+
+5 4 1 3 2 
+i 
+    m
+        j
+1 4 5 3 2 
+  i
+  m
+    j
+      j
+Selection sort always makes n(n-1)/2 comparisons
+		makes at most n-1 swaps.
+
+Insertion sort
+5 4 1 3 2
+ 
+5 5 1 3 2
+  i
+
+k 
+cur 4 
+4 5 1 3 2
+
+4 4 5 3 2 
+1 4 5 3 2
+
+cur 1
+ 1 2 3 4 5 
+   i
+ k
+
+cur = 2
+  
+
+ 
+  

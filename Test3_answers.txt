@@ -1,0 +1,11 @@
+CS 385 Test 3
+
+4) n== nullptr
+   ""
+   n->data+" "+(preorder(n->left)+preorder(n->right))
+
+8) Floyd's run time is Theta(n^3)
+
+17) BFS, it's unweighted and undirected like water jug.
+18) min heap
+Extra credit(theta(1))
